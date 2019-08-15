@@ -1,0 +1,27 @@
+.Empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.Empty .image {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+.Empty .Details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.Empty .Details .Name {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 24px;
+}
+.Details .Status {
+  font-size: 18px;
+}
