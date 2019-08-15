@@ -3,10 +3,15 @@
   border-radius: 5px;
   background-color: chocolate;
   margin: 1rem;
-  max-width: 75%;
+  max-width: 60%;
   color: #333333;
 }
 .ChatUser {
   margin-left: auto;
   background-color: #fbd28b;
+}
+@media (min-width: 576px) {
+  .Chat {
+    max-width: 75%;
+  }
 }

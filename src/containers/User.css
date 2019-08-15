@@ -19,6 +19,9 @@
   border: 1px solid #000;
   display: block;
 }
+.User_Details {
+  display: none;
+}
 .User_Details .User_Details_Name {
   font-weight: bolder;
   text-align: center;
@@ -30,4 +33,11 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* Not Small Device */
+@media (min-width: 576px) {
+  .User_Details {
+    display: block;
+  }
 }
